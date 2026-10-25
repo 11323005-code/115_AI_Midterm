@@ -17,8 +17,8 @@
 ### 1. 變更執行階段類型（啟用 GPU）
 AI 訓練需要強大算力。我們點選 Colab 的「執行階段」選單，進入設定將硬體加速器切換為免費的 **T4 GPU**，確保後續 AI 範例能高速運算。
 
-![Colab 選單設定](colab_menu.png)
-![切換 T4 GPU 畫面](colab_settings.png)
+![Colab 選單設定](colab_menu.png.png)
+![切換 T4 GPU 畫面](colab_settings.png.png)
 
 ### 2. 執行環境配置與雲端硬碟掛載結果
 成功配置環境後，我們在筆記本中依序執行 Linux 魔法命令與 Python 代碼：
@@ -26,7 +26,7 @@ AI 訓練需要強大算力。我們點選 Colab 的「執行階段」選單，�
 * 透過 `drive.mount` 成功將 Google Drive 雲端硬碟掛載至運算環境（顯示 Drive already mounted）。
 * 透過 `!mkdir test` 建立專案資料夾，並以 `%pwd` 確認當前工作路徑位於 `/content` 核心目錄。
 
-![Colab 完整執行結果](colab_result.png)
+![Colab 完整執行結果](colab_result.png.png)
 
 ---
 
